@@ -1,0 +1,31 @@
+url,name,lg,from,to,years,games,wins,losses,wlpercent,playoffs,div,conf,champ
+/teams/ATL/,Atlanta Hawks,NBA,1950,2015,66,5190,2582,2608,.497,43,10,0,1
+/teams/BOS/,Boston Celtics,NBA/BAA,1947,2015,69,5360,3149,2211,.588,51,30,9,17
+/teams/NJN/,Brooklyn Nets,NBA/ABA,1968,2015,48,3858,1693,2165,.439,25,5,2,2
+/teams/CHA/,Charlotte Hornets,NBA,1989,2015,25,1967,855,1112,.435,9,0,0,0
+/teams/CHI/,Chicago Bulls,NBA,1967,2015,49,3936,2053,1883,.522,33,9,6,6
+/teams/CLE/,Cleveland Cavaliers,NBA,1971,2015,45,3609,1647,1962,.456,18,3,1,0
+/teams/DAL/,Dallas Mavericks,NBA,1981,2015,35,2789,1422,1367,.510,19,3,2,1
+/teams/DEN/,Denver Nuggets,NBA/ABA,1968,2015,48,3860,1932,1928,.501,33,10,0,0
+/teams/DET/,Detroit Pistons,NBA/BAA,1949,2015,67,5252,2558,2694,.487,40,11,5,3
+/teams/GSW/,Golden State Warriors,NBA/BAA,1947,2015,69,5355,2487,2868,.464,30,7,1,3
+/teams/HOU/,Houston Rockets,NBA,1968,2015,48,3854,1988,1866,.516,28,4,4,2
+/teams/IND/,Indiana Pacers,NBA/ABA,1968,2015,48,3860,1967,1893,.510,31,9,1,3
+/teams/LAC/,Los Angeles Clippers,NBA,1971,2015,45,3608,1393,2215,.386,10,2,0,0
+/teams/LAL/,Los Angeles Lakers,NBA/BAA,1949,2015,67,5253,3210,2043,.611,60,32,18,16
+/teams/MEM/,Memphis Grizzlies,NBA,1996,2015,20,1557,632,925,.406,7,0,0,0
+/teams/MIA/,Miami Heat,NBA,1989,2015,27,2131,1106,1025,.519,18,11,5,3
+/teams/MIL/,Milwaukee Bucks,NBA,1969,2015,47,3771,1934,1837,.513,27,13,2,1
+/teams/MIN/,Minnesota Timberwolves,NBA,1990,2015,26,2049,810,1239,.395,8,1,0,0
+/teams/NOH/,New Orleans Pelicans,NBA,2003,2015,13,1015,478,537,.471,5,1,0,0
+/teams/NYK/,New York Knicks,NBA/BAA,1947,2015,69,5359,2662,2697,.497,42,8,4,2
+/teams/OKC/,Oklahoma City Thunder,NBA,1968,2015,48,3853,2062,1791,.535,27,10,4,1
+/teams/ORL/,Orlando Magic,NBA,1990,2015,26,2052,1017,1035,.496,14,5,2,0
+/teams/PHI/,Philadelphia 76ers,NBA,1950,2015,66,5188,2708,2480,.522,47,11,5,3
+/teams/PHO/,Phoenix Suns,NBA,1969,2015,47,3773,2088,1685,.553,29,6,2,0
+/teams/POR/,Portland Trail Blazers,NBA,1971,2015,45,3608,1928,1680,.534,30,4,3,1
+/teams/SAC/,Sacramento Kings,NBA/BAA,1949,2015,67,5251,2419,2832,.461,29,5,0,1
+/teams/SAS/,San Antonio Spurs,NBA/ABA,1968,2015,48,3860,2292,1568,.594,42,20,6,5
+/teams/TOR/,Toronto Raptors,NBA,1996,2015,20,1558,662,896,.425,6,2,0,0
+/teams/UTA/,Utah Jazz,NBA,1975,2015,41,3279,1754,1525,.535,25,8,2,0
+/teams/WAS/,Washington Wizards,NBA,1962,2015,54,4335,1948,2387,.449,26,7,4,1

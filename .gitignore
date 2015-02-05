@@ -40,6 +40,8 @@ htmlcov/
 nosetests.xml
 coverage.xml
 
+# Pycharm files
+/.idea
 # Translations
 *.mo
 *.pot
