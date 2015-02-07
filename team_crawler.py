@@ -64,7 +64,7 @@ def get_team_info():
 
 def get_team_stats(urls):
     logger.info("Started getting team statistics")
-    header = ['url', 'Season', 'Lg', 'Team', 'W', 'L', 'W/L%', 'Finish',	'SRS', 'Pace', 'Rel_Pace', 'ORtg', 'Rel_ORtg', 'DRtg', 'Rel_DRtg', 'Playoffs', 'Coaches', 'Top_WS']
+    header = ['url', 'Season', 'Lg', 'Team', 'W', 'L', 'W/L%', 'Finish',	'SRS', 'Pace', 'Rel_Pace', 'ORtg', 'Rel_ORtg', 'DRtg', 'Rel_DRtg', 'Playoffs', 'Coaches', 'Top_WS','top_ws_url']
     with open(TEAM_STATS_CSV, 'w') as fp:
         a = csv.writer(fp, delimiter=',')
         a.writerow(header)
@@ -86,10 +86,16 @@ def get_team_stats(urls):
             for active_row in active_rows[1:]:
                 data = active_row.find_all('td')
                 row_data = [url]
+                i = 0
                 for d in data:
-                    row_data.append(d.text.encode('utf-8').strip())
+                    if i == 16:
+                        ws_url = d.find('a')['href']
+                        row_data.append(d.text.encode('utf-8').strip())
+                        row_data.append(ws_url)
+                    else:
+                        row_data.append(d.text.encode('utf-8').strip())
+                    i += 1
                 all_teams.append(row_data)
-            print(all_teams)
             with open(TEAM_STATS_CSV, 'a') as fp:
                 a = csv.writer(fp, delimiter=',')
                 a.writerows(all_teams)
@@ -141,9 +147,9 @@ def get_team_salary(urls):
                 a.writerows(all_items)
             time.sleep(1)
         except:
-            print("Exception while scrapping: "+url)
-            print(sys.exc_info()[0])
-            print traceback.format_exc()
+            logger.error("Exception while scrapping: "+url)
+            logger.error(sys.exc_info()[0])
+            logger.error(traceback.format_exc())
             continue
         logger.info("Completed getting player salaries from team seasons")
 
