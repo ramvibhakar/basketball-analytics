@@ -41,7 +41,7 @@ def get_team_info():
         active_teams = soup.find_all('table', {'id': 'active'})
         active_rows = active_teams[0].find_all('tr', attrs={'class': 'full_table'})
         all_teams = []
-        header = ['url', 'name', 'lg', 'from', 'to', 'years', 'games', 'wins', 'losses', 'wlpercent', 'playoffs', 'div', 'conf', 'champ']
+        header = ['url', 'name', 'lg', 'from', 'to', 'years', 'games', 'wins', 'losses', 'wlpercent', 'playoffs', 'div', 'conf', 'champ','defunct']
         for active_row in active_rows:
             data = active_row.find_all('td')
             row_data = []
@@ -52,8 +52,22 @@ def get_team_info():
                     row_data.append(d.text)
                 else:
                     row_data.append(d.text)
+            row_data.append('0')
             all_teams.append(row_data)
-        print(all_teams)
+        defunct_teams = soup.find_all('table', {'id': 'defunct'})
+        defunct_rows = defunct_teams[0].find_all('tr', attrs={'class': 'full_table'})
+        for defunct_row in defunct_rows:
+            data = defunct_row.find_all('td')
+            row_data = []
+            for d in data:
+                if d.find('a'):
+                    row_data.append(d.find('a')['href'])
+                    return_urls.append(d.find('a')['href'])
+                    row_data.append(d.text)
+                else:
+                    row_data.append(d.text)
+            row_data.append('1')
+            all_teams.append(row_data)
         with open(TEAM_BASIC_CSV, 'wb') as fp:
             a = csv.writer(fp, delimiter=',')
             a.writerow(header)
