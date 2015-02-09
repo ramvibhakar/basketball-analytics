@@ -9,6 +9,7 @@ import time
 import re
 import sys
 import traceback
+import urllib2
 
 # some constants defined here
 SITE_HOME = "http://www.basketball-reference.com"
@@ -166,6 +167,20 @@ def get_team_salary(urls):
             logger.error(traceback.format_exc())
             continue
         logger.info("Completed getting player salaries from team seasons")
+
+# gets list of team URL that are either not in the active team list or defunct team list and find
+# the actual team/franchise URL. This method generates Update queries that can be used to clean
+# the data in sqlite3
+
+def find_redirect_urls():
+    new_urls = ['/teams/ANA/','/teams/BAL/','/teams/BUF/','/teams/CAP/','/teams/CAR/','/teams/CHP/','/teams/CHZ/','/teams/CIN/','/teams/DLC/','/teams/DNA/','/teams/DNR/','/teams/FTW/','/teams/HSM/','/teams/INA/','/teams/KCK/','/teams/KCO/','/teams/LAS/','/teams/MLH/','/teams/MMF/','/teams/MMP/','/teams/MMT/','/teams/MNL/','/teams/MNM/','/teams/MNP/','/teams/NJA/','/teams/NOB/','/teams/NOJ/','/teams/NYA/','/teams/NYN/','/teams/OAK/','/teams/PHW/','/teams/PTP/','/teams/ROC/','/teams/SAA/','/teams/SDA/','/teams/SDC/','/teams/SDR/','/teams/SFW/','/teams/STL/','/teams/SYR/','/teams/TEX/','/teams/TRI/','/teams/WSA/']
+    for url in new_urls:
+        req = urllib2.Request("http://www.basketball-reference.com"+ url)
+        res = urllib2.urlopen(req)
+        final_url = res.geturl()
+        pat = re.compile(r'http://www.basketball-reference.com(/teams/[A-Z]+/)index.html')
+        result = re.findall(pat, final_url)
+        print('UPDATE raw_player_stats SET Tm_url=\''+result[0]+'\' WHERE Tm_url=\''+url+'\';')
 
 team_urls = get_team_info()
 season_urls = get_team_stats(team_urls)
