@@ -1,0 +1,328 @@
+team,seas,avg_age
+"Atlanta Hawks",2001-02,26.67
+"Atlanta Hawks",2002-03,27.38
+"Atlanta Hawks",2003-04,26.7
+"Atlanta Hawks",2004-05,28
+"Atlanta Hawks",2005-06,24.13
+"Atlanta Hawks",2006-07,24.63
+"Atlanta Hawks",2007-08,25.13
+"Atlanta Hawks",2008-09,25.13
+"Atlanta Hawks",2009-10,26.57
+"Atlanta Hawks",2010-11,27.47
+"Atlanta Hawks",2011-12,29.31
+"Boston Celtics",2001-02,25.94
+"Boston Celtics",2002-03,28.06
+"Boston Celtics",2003-04,26.47
+"Boston Celtics",2004-05,26.2
+"Boston Celtics",2005-06,24.94
+"Boston Celtics",2006-07,24.75
+"Boston Celtics",2007-08,28.47
+"Boston Celtics",2008-09,26.81
+"Boston Celtics",2009-10,28
+"Boston Celtics",2010-11,27.9
+"Boston Celtics",2011-12,28.24
+"Brooklyn Nets",2001-02,26.13
+"Brooklyn Nets",2002-03,27.93
+"Brooklyn Nets",2003-04,28.42
+"Brooklyn Nets",2004-05,28.45
+"Brooklyn Nets",2005-06,27.94
+"Brooklyn Nets",2006-07,26.67
+"Brooklyn Nets",2007-08,27.4
+"Brooklyn Nets",2008-09,25.53
+"Brooklyn Nets",2009-10,26.53
+"Brooklyn Nets",2010-11,25.82
+"Brooklyn Nets",2011-12,26.09
+"Charlotte Hornets",2001-02,28.27
+"Charlotte Hornets",2004-05,25.47
+"Charlotte Hornets",2005-06,25.06
+"Charlotte Hornets",2006-07,26.94
+"Charlotte Hornets",2007-08,27.47
+"Charlotte Hornets",2008-09,25.92
+"Charlotte Hornets",2009-10,27.26
+"Charlotte Hornets",2010-11,26.84
+"Charlotte Hornets",2011-12,26.19
+"Chicago Bulls",2001-02,25.28
+"Chicago Bulls",2002-03,25.13
+"Chicago Bulls",2003-04,27.24
+"Chicago Bulls",2004-05,26.07
+"Chicago Bulls",2005-06,25.58
+"Chicago Bulls",2006-07,26
+"Chicago Bulls",2007-08,25.37
+"Chicago Bulls",2008-09,26.58
+"Chicago Bulls",2009-10,26.94
+"Chicago Bulls",2010-11,27.47
+"Chicago Bulls",2011-12,28
+"Cleveland Cavaliers",2001-02,25.87
+"Cleveland Cavaliers",2002-03,24.36
+"Cleveland Cavaliers",2003-04,25.05
+"Cleveland Cavaliers",2004-05,26.31
+"Cleveland Cavaliers",2005-06,26.59
+"Cleveland Cavaliers",2006-07,27.47
+"Cleveland Cavaliers",2007-08,27.74
+"Cleveland Cavaliers",2008-09,26.75
+"Cleveland Cavaliers",2009-10,27.06
+"Cleveland Cavaliers",2010-11,26.21
+"Cleveland Cavaliers",2011-12,25.19
+"Dallas Mavericks",2001-02,28.05
+"Dallas Mavericks",2002-03,28.76
+"Dallas Mavericks",2003-04,28.07
+"Dallas Mavericks",2004-05,27.44
+"Dallas Mavericks",2005-06,27.31
+"Dallas Mavericks",2006-07,28.31
+"Dallas Mavericks",2007-08,28.2
+"Dallas Mavericks",2008-09,27.75
+"Dallas Mavericks",2009-10,29.33
+"Dallas Mavericks",2010-11,28.44
+"Dallas Mavericks",2011-12,29.44
+"Denver Nuggets",2001-02,27.67
+"Denver Nuggets",2002-03,25.29
+"Denver Nuggets",2003-04,26.07
+"Denver Nuggets",2004-05,27.12
+"Denver Nuggets",2005-06,27.74
+"Denver Nuggets",2006-07,26.72
+"Denver Nuggets",2007-08,27.06
+"Denver Nuggets",2008-09,28
+"Denver Nuggets",2009-10,27.62
+"Denver Nuggets",2010-11,27.21
+"Denver Nuggets",2011-12,25.76
+"Detroit Pistons",2001-02,28.13
+"Detroit Pistons",2002-03,29
+"Detroit Pistons",2003-04,28.29
+"Detroit Pistons",2004-05,28.35
+"Detroit Pistons",2005-06,27.47
+"Detroit Pistons",2006-07,28.33
+"Detroit Pistons",2007-08,27.89
+"Detroit Pistons",2008-09,27.4
+"Detroit Pistons",2009-10,26.86
+"Detroit Pistons",2010-11,27.23
+"Detroit Pistons",2011-12,27.07
+"Golden State Warriors",2001-02,26.13
+"Golden State Warriors",2002-03,25.19
+"Golden State Warriors",2003-04,27.94
+"Golden State Warriors",2004-05,26.39
+"Golden State Warriors",2005-06,24.6
+"Golden State Warriors",2006-07,24.9
+"Golden State Warriors",2007-08,25.5
+"Golden State Warriors",2008-09,24.29
+"Golden State Warriors",2009-10,26.35
+"Golden State Warriors",2010-11,25.82
+"Golden State Warriors",2011-12,25.7
+"Houston Rockets",2001-02,26.43
+"Houston Rockets",2002-03,25.6
+"Houston Rockets",2003-04,28.94
+"Houston Rockets",2004-05,29.74
+"Houston Rockets",2005-06,28.1
+"Houston Rockets",2006-07,27.47
+"Houston Rockets",2007-08,27.43
+"Houston Rockets",2008-09,28.18
+"Houston Rockets",2009-10,25.95
+"Houston Rockets",2010-11,25.85
+"Houston Rockets",2011-12,25.79
+"Indiana Pacers",2001-02,25
+"Indiana Pacers",2002-03,26
+"Indiana Pacers",2003-04,26.47
+"Indiana Pacers",2004-05,27.5
+"Indiana Pacers",2005-06,27.25
+"Indiana Pacers",2006-07,26.63
+"Indiana Pacers",2007-08,26.25
+"Indiana Pacers",2008-09,26.71
+"Indiana Pacers",2009-10,26.47
+"Indiana Pacers",2010-11,26.13
+"Indiana Pacers",2011-12,26.6
+"Los Angeles Clippers",2001-02,25.69
+"Los Angeles Clippers",2002-03,25.33
+"Los Angeles Clippers",2003-04,26.35
+"Los Angeles Clippers",2004-05,26.56
+"Los Angeles Clippers",2005-06,27.22
+"Los Angeles Clippers",2006-07,26.89
+"Los Angeles Clippers",2007-08,27.7
+"Los Angeles Clippers",2008-09,26.89
+"Los Angeles Clippers",2009-10,27.05
+"Los Angeles Clippers",2010-11,26.24
+"Los Angeles Clippers",2011-12,27.22
+"Los Angeles Lakers",2001-02,27.6
+"Los Angeles Lakers",2002-03,27.43
+"Los Angeles Lakers",2003-04,28.29
+"Los Angeles Lakers",2004-05,26.06
+"Los Angeles Lakers",2005-06,25.35
+"Los Angeles Lakers",2006-07,25.71
+"Los Angeles Lakers",2007-08,26.05
+"Los Angeles Lakers",2008-09,26.25
+"Los Angeles Lakers",2009-10,27.62
+"Los Angeles Lakers",2010-11,29.06
+"Los Angeles Lakers",2011-12,27.76
+"Memphis Grizzlies",2001-02,26.65
+"Memphis Grizzlies",2002-03,24.41
+"Memphis Grizzlies",2003-04,25.63
+"Memphis Grizzlies",2004-05,25.67
+"Memphis Grizzlies",2005-06,27.38
+"Memphis Grizzlies",2006-07,26.33
+"Memphis Grizzlies",2007-08,25.16
+"Memphis Grizzlies",2008-09,24.8
+"Memphis Grizzlies",2009-10,25
+"Memphis Grizzlies",2010-11,25.47
+"Memphis Grizzlies",2011-12,26.53
+"Miami Heat",2001-02,28.18
+"Miami Heat",2002-03,26.43
+"Miami Heat",2003-04,26.71
+"Miami Heat",2004-05,28.18
+"Miami Heat",2005-06,27.59
+"Miami Heat",2006-07,28.38
+"Miami Heat",2007-08,27.23
+"Miami Heat",2008-09,26.28
+"Miami Heat",2009-10,27.33
+"Miami Heat",2010-11,30.29
+"Miami Heat",2011-12,28.44
+"Milwaukee Bucks",2001-02,28.64
+"Milwaukee Bucks",2002-03,27.63
+"Milwaukee Bucks",2003-04,26.5
+"Milwaukee Bucks",2004-05,28
+"Milwaukee Bucks",2005-06,27.13
+"Milwaukee Bucks",2006-07,25
+"Milwaukee Bucks",2007-08,26.5
+"Milwaukee Bucks",2008-09,27.82
+"Milwaukee Bucks",2009-10,27.74
+"Milwaukee Bucks",2010-11,27.29
+"Milwaukee Bucks",2011-12,25.76
+"Minnesota Timberwolves",2001-02,27.63
+"Minnesota Timberwolves",2002-03,28
+"Minnesota Timberwolves",2003-04,28.76
+"Minnesota Timberwolves",2004-05,28.86
+"Minnesota Timberwolves",2005-06,26.28
+"Minnesota Timberwolves",2006-07,26.71
+"Minnesota Timberwolves",2007-08,26.13
+"Minnesota Timberwolves",2008-09,26.59
+"Minnesota Timberwolves",2009-10,25.06
+"Minnesota Timberwolves",2010-11,23.76
+"Minnesota Timberwolves",2011-12,24.87
+"New Orleans Pelicans",2002-03,28.69
+"New Orleans Pelicans",2003-04,29.69
+"New Orleans Pelicans",2004-05,26.55
+"New Orleans Pelicans",2005-06,26.05
+"New Orleans Pelicans",2006-07,25.87
+"New Orleans Pelicans",2007-08,27.69
+"New Orleans Pelicans",2008-09,29.13
+"New Orleans Pelicans",2009-10,27.81
+"New Orleans Pelicans",2010-11,26.58
+"New Orleans Pelicans",2011-12,25.45
+"New York Knicks",2001-02,29.86
+"New York Knicks",2002-03,28.54
+"New York Knicks",2003-04,28.45
+"New York Knicks",2004-05,27.53
+"New York Knicks",2005-06,26.58
+"New York Knicks",2006-07,25.8
+"New York Knicks",2007-08,25.93
+"New York Knicks",2008-09,26.09
+"New York Knicks",2009-10,25.8
+"New York Knicks",2010-11,25.95
+"New York Knicks",2011-12,26.88
+"Oklahoma City Thunder",2001-02,26
+"Oklahoma City Thunder",2002-03,26.88
+"Oklahoma City Thunder",2003-04,25.93
+"Oklahoma City Thunder",2004-05,26
+"Oklahoma City Thunder",2005-06,26.11
+"Oklahoma City Thunder",2006-07,25.88
+"Oklahoma City Thunder",2007-08,27
+"Oklahoma City Thunder",2008-09,25.65
+"Oklahoma City Thunder",2009-10,25.17
+"Oklahoma City Thunder",2010-11,25.17
+"Oklahoma City Thunder",2011-12,26.13
+"Orlando Magic",2001-02,28.71
+"Orlando Magic",2002-03,26.76
+"Orlando Magic",2003-04,25.76
+"Orlando Magic",2004-05,27.11
+"Orlando Magic",2005-06,26.67
+"Orlando Magic",2006-07,26
+"Orlando Magic",2007-08,26.94
+"Orlando Magic",2008-09,27.88
+"Orlando Magic",2009-10,27.83
+"Orlando Magic",2010-11,28.41
+"Orlando Magic",2011-12,26.63
+"Philadelphia 76ers",2001-02,27.21
+"Philadelphia 76ers",2002-03,28.44
+"Philadelphia 76ers",2003-04,27.57
+"Philadelphia 76ers",2004-05,27.06
+"Philadelphia 76ers",2005-06,25.82
+"Philadelphia 76ers",2006-07,26.39
+"Philadelphia 76ers",2007-08,25.93
+"Philadelphia 76ers",2008-09,27.38
+"Philadelphia 76ers",2009-10,26.25
+"Philadelphia 76ers",2010-11,26.53
+"Philadelphia 76ers",2011-12,26.13
+"Phoenix Suns",2001-02,26.63
+"Phoenix Suns",2002-03,26.29
+"Phoenix Suns",2003-04,25.74
+"Phoenix Suns",2004-05,25.33
+"Phoenix Suns",2005-06,26.94
+"Phoenix Suns",2006-07,29.14
+"Phoenix Suns",2007-08,29.13
+"Phoenix Suns",2008-09,27.11
+"Phoenix Suns",2009-10,26.87
+"Phoenix Suns",2010-11,27.68
+"Phoenix Suns",2011-12,28.54
+"Portland Trail Blazers",2001-02,28.73
+"Portland Trail Blazers",2002-03,28.73
+"Portland Trail Blazers",2003-04,26.29
+"Portland Trail Blazers",2004-05,25.71
+"Portland Trail Blazers",2005-06,25.06
+"Portland Trail Blazers",2006-07,24.71
+"Portland Trail Blazers",2007-08,23.86
+"Portland Trail Blazers",2008-09,24.2
+"Portland Trail Blazers",2009-10,25.79
+"Portland Trail Blazers",2010-11,27.44
+"Portland Trail Blazers",2011-12,26.72
+"Sacramento Kings",2001-02,27.07
+"Sacramento Kings",2002-03,27.5
+"Sacramento Kings",2003-04,28.77
+"Sacramento Kings",2004-05,27.39
+"Sacramento Kings",2005-06,26.63
+"Sacramento Kings",2006-07,27.2
+"Sacramento Kings",2007-08,27
+"Sacramento Kings",2008-09,26.81
+"Sacramento Kings",2009-10,25.35
+"Sacramento Kings",2010-11,24.75
+"Sacramento Kings",2011-12,24.4
+"San Antonio Spurs",2001-02,28.87
+"San Antonio Spurs",2002-03,29.53
+"San Antonio Spurs",2003-04,28.06
+"San Antonio Spurs",2004-05,28.41
+"San Antonio Spurs",2005-06,29.4
+"San Antonio Spurs",2006-07,29.44
+"San Antonio Spurs",2007-08,29.14
+"San Antonio Spurs",2008-09,28.7
+"San Antonio Spurs",2009-10,28.12
+"San Antonio Spurs",2010-11,27.45
+"San Antonio Spurs",2011-12,26.95
+"Toronto Raptors",2001-02,28.24
+"Toronto Raptors",2002-03,27.37
+"Toronto Raptors",2003-04,27.83
+"Toronto Raptors",2004-05,27.13
+"Toronto Raptors",2005-06,27.82
+"Toronto Raptors",2006-07,25.82
+"Toronto Raptors",2007-08,27.35
+"Toronto Raptors",2008-09,26.32
+"Toronto Raptors",2009-10,25.67
+"Toronto Raptors",2010-11,25.68
+"Toronto Raptors",2011-12,26.78
+"Utah Jazz",2001-02,28.79
+"Utah Jazz",2002-03,29.54
+"Utah Jazz",2003-04,25.94
+"Utah Jazz",2004-05,25.76
+"Utah Jazz",2005-06,25.13
+"Utah Jazz",2006-07,25
+"Utah Jazz",2007-08,25.27
+"Utah Jazz",2008-09,25.67
+"Utah Jazz",2009-10,24.67
+"Utah Jazz",2010-11,26.29
+"Utah Jazz",2011-12,26.13
+"Washington Wizards",2001-02,26.36
+"Washington Wizards",2002-03,27.25
+"Washington Wizards",2003-04,26.12
+"Washington Wizards",2004-05,25.5
+"Washington Wizards",2005-06,26.53
+"Washington Wizards",2006-07,26.25
+"Washington Wizards",2007-08,26.23
+"Washington Wizards",2008-09,26.82
+"Washington Wizards",2009-10,27.21
+"Washington Wizards",2010-11,25.91
+"Washington Wizards",2011-12,26.05
